@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+import { CalendarItem } from "./CalendarItem";
 
 export const Calendar = () => {
-  return <div>Calendar</div>;
+  const [activities, setActivities] = useState(null);
+  return <CalendarItem />;
 };
